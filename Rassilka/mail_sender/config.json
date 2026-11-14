@@ -1,0 +1,20 @@
+{
+  "accounts": [
+    {
+      "email": "",
+      "password": "",
+      "smtp_server": "smtp.gmail.com",
+      "smtp_port": 587,
+      "use_ssl": false
+    }
+  ],
+  "message": {
+    "to": "",
+    "subject": "",
+    "body": "Привет!\n\nЭто тестовое письмо от {email}.\n\nHello World",
+    "delay_min_sec": 15,
+    "delay_max_sec": 45,
+    "batch_size": 10,
+    "batch_pause_sec": 300
+  }
+}
